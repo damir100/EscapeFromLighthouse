@@ -30,7 +30,7 @@ public class PlayerSprintAndCrouch : MonoBehaviour
     {
         Running();
         Sprint();
-        Crouch();
+        //Crouch();
     }
 
     void Sprint()
