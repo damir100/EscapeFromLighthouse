@@ -15,7 +15,10 @@ public class CardBoard : MonoBehaviour
 
     public ObjectsPickup pickupScript;
 
+    public AudioSource cut;
+
     public bool idk = false;
+    public bool keyHold = false;
 
     private void Start()
     {
@@ -37,7 +40,8 @@ public class CardBoard : MonoBehaviour
                 key.SetActive(false);
                 handKey.SetActive(true);
                 glass.SetActive(false);
-
+                keyHold = true;
+                cut.Play();
             }
 
         } else

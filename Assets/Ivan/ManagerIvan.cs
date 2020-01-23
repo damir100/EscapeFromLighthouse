@@ -7,14 +7,13 @@ using UnityEngine.SceneManagement;
 public class ManagerIvan : MonoBehaviour
 {
      public void StartGame()
-    {
-        SceneManager.LoadScene("prprp");
-    }
+     {
+        SceneManager.LoadScene(1);
+     }
 
     public void QuitGame()
     {
         Application.Quit();
-        Debug.Log("Kao ono izasao si iz igre ziher !");
     }
 
 }
