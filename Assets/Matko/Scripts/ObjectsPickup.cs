@@ -5,15 +5,22 @@ using UnityEngine;
 public class ObjectsPickup : MonoBehaviour
 {
     public GameObject pajser;
-    public GameObject pajser2;
+    public GameObject handPajser;
 
-    public bool trigger = false;
+    public bool triggerPajser = false;
+
+    private void Start()
+    {
+        handPajser.SetActive(false);
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Pajser")
+        triggerPajser = true;
+        if (triggerPajser)
         {
-            trigger = true;
+            pajser.SetActive(false);
+            handPajser.SetActive(true);
         }
     }
 }
