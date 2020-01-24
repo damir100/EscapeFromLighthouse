@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ObjectsPickup : MonoBehaviour
 {
@@ -21,11 +22,14 @@ public class ObjectsPickup : MonoBehaviour
     public bool PajserIsPickedUp = false;
     public bool GlassIsPickedUp = false;
 
+    public Text textObjectives;
+
     private void Start()
     {
         Cursor.visible = false;
         handPajser.SetActive(false);
         handGlass.SetActive(false);
+        textObjectives.text = "Find usefull objects";
     }
 
     private void Update()
@@ -59,6 +63,8 @@ public class ObjectsPickup : MonoBehaviour
                     dropGlass.Play();
                 }
 
+                textObjectives.text = "Open the side room door.";
+
             }
         }
 
@@ -82,6 +88,8 @@ public class ObjectsPickup : MonoBehaviour
                 {
                     dropItem.Play();
                 }
+
+                textObjectives.text = "You can cut carboard with this!";
             }
         }
     }

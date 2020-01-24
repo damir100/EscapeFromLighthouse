@@ -10,6 +10,8 @@ public class CardBoard : MonoBehaviour
     public GameObject OpendBox;
     public GameObject glass;
 
+    public Text textObjectives;
+
     public Text text;
     public Text keyText;
 
@@ -42,6 +44,8 @@ public class CardBoard : MonoBehaviour
                 glass.SetActive(false);
                 keyHold = true;
                 cut.Play();
+
+                textObjectives.text = "Exit the lighthouse.";
             }
 
         } else
