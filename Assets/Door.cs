@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Door : MonoBehaviour
 {
     public Text doorText;
+    //public Text textObjectives;
 
     public ObjectsPickup objectScript;
 
@@ -27,6 +28,9 @@ public class Door : MonoBehaviour
         {
             door.SetActive(false);
             openedDoor.SetActive(true);
+
+            //textObjectives.text = "Find a way to open a box.";
+
             doors.Play();
 
         } else
