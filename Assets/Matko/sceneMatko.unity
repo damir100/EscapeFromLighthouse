@@ -805,16 +805,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
-        type: 3}
-      propertyPath: m_Name
-      value: broken glass (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
-        type: 3}
-      propertyPath: m_TagString
-      value: Glass
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d67ee35d0d416e745a4bfd11e9213d22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -890,6 +880,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7edb334606ff7e9428f247e02cccf03d, type: 2}
+    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
+        type: 3}
+      propertyPath: m_Name
+      value: broken glass (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Glass
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d67ee35d0d416e745a4bfd11e9213d22, type: 3}
 --- !u!1 &169823296
@@ -1265,10 +1265,35 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7062979995417400391, guid: d2391648358a3704996db1e091d6d324,
+    - target: {fileID: 7062979994241742197, guid: d2391648358a3704996db1e091d6d324,
         type: 3}
-      propertyPath: m_Name
-      value: Player
+      propertyPath: m_ClearFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7062979994241742197, guid: d2391648358a3704996db1e091d6d324,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.8235295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7062979994241742197, guid: d2391648358a3704996db1e091d6d324,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.8196079
+      objectReference: {fileID: 0}
+    - target: {fileID: 7062979994241742197, guid: d2391648358a3704996db1e091d6d324,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.8196079
+      objectReference: {fileID: 0}
+    - target: {fileID: 7062979994241742197, guid: d2391648358a3704996db1e091d6d324,
+        type: 3}
+      propertyPath: near clip plane
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 7062979994241742199, guid: d2391648358a3704996db1e091d6d324,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7062979995417400389, guid: d2391648358a3704996db1e091d6d324,
         type: 3}
@@ -1325,35 +1350,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7062979994241742199, guid: d2391648358a3704996db1e091d6d324,
+    - target: {fileID: 7062979995417400391, guid: d2391648358a3704996db1e091d6d324,
         type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7062979994241742197, guid: d2391648358a3704996db1e091d6d324,
-        type: 3}
-      propertyPath: m_ClearFlags
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7062979994241742197, guid: d2391648358a3704996db1e091d6d324,
-        type: 3}
-      propertyPath: m_BackGroundColor.r
-      value: 0.8235295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7062979994241742197, guid: d2391648358a3704996db1e091d6d324,
-        type: 3}
-      propertyPath: m_BackGroundColor.g
-      value: 0.8196079
-      objectReference: {fileID: 0}
-    - target: {fileID: 7062979994241742197, guid: d2391648358a3704996db1e091d6d324,
-        type: 3}
-      propertyPath: m_BackGroundColor.b
-      value: 0.8196079
-      objectReference: {fileID: 0}
-    - target: {fileID: 7062979994241742197, guid: d2391648358a3704996db1e091d6d324,
-        type: 3}
-      propertyPath: near clip plane
-      value: 0.02
+      propertyPath: m_Name
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2391648358a3704996db1e091d6d324, type: 3}
@@ -1610,7 +1610,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9ad2bee3ae4e67e4d89d324b1815484d, type: 2}
+  - {fileID: 2100000, guid: 283850dc8ff275640a53cd16b1539acf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1647,8 +1647,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379634417}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 88.13, y: 27.75, z: 149.596}
-  m_LocalScale: {x: 0.17733587, y: 3.1140413, z: 2.4408526}
+  m_LocalPosition: {x: 88.13, y: 27.751, z: 149.596}
+  m_LocalScale: {x: 0.17733587, y: 3.2027915, z: 2.4408526}
   m_Children:
   - {fileID: 1937380843}
   m_Father: {fileID: 0}
@@ -1733,16 +1733,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
-        type: 3}
-      propertyPath: m_Name
-      value: broken glass
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
-        type: 3}
-      propertyPath: m_TagString
-      value: Glass
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d67ee35d0d416e745a4bfd11e9213d22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1818,6 +1808,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7edb334606ff7e9428f247e02cccf03d, type: 2}
+    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
+        type: 3}
+      propertyPath: m_Name
+      value: broken glass
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Glass
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d67ee35d0d416e745a4bfd11e9213d22, type: 3}
 --- !u!1 &411253428
@@ -2909,16 +2909,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: a2569e468501e11408281f6b817431dc,
-        type: 3}
-      propertyPath: m_Name
-      value: pajser (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: a2569e468501e11408281f6b817431dc,
-        type: 3}
-      propertyPath: m_TagString
-      value: Pajser
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: a2569e468501e11408281f6b817431dc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2994,6 +2984,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c9ed9c72cfbcad24c8f016af7a00d88e, type: 2}
+    - target: {fileID: -927199367670048503, guid: a2569e468501e11408281f6b817431dc,
+        type: 3}
+      propertyPath: m_Name
+      value: pajser (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a2569e468501e11408281f6b817431dc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pajser
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2569e468501e11408281f6b817431dc, type: 3}
 --- !u!1 &638193233
@@ -3284,16 +3284,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
-        type: 3}
-      propertyPath: m_Name
-      value: broken glass (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
-        type: 3}
-      propertyPath: m_TagString
-      value: Glass
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d67ee35d0d416e745a4bfd11e9213d22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3369,6 +3359,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7edb334606ff7e9428f247e02cccf03d, type: 2}
+    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
+        type: 3}
+      propertyPath: m_Name
+      value: broken glass (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Glass
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d67ee35d0d416e745a4bfd11e9213d22, type: 3}
 --- !u!1001 &722411637
@@ -3539,11 +3539,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: be2bd41a4c694e648a640cc6e6f1f2e7,
+    - target: {fileID: -6343861325774139571, guid: be2bd41a4c694e648a640cc6e6f1f2e7,
         type: 3}
-      propertyPath: m_Name
-      value: Lighthouse
+      propertyPath: m_LocalPosition.y
+      value: 1.47
       objectReference: {fileID: 0}
+    - target: {fileID: -4349876608052867759, guid: be2bd41a4c694e648a640cc6e6f1f2e7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7b34a907ffb068b4f848479b170e67b1, type: 2}
+    - target: {fileID: -4349876608052867759, guid: be2bd41a4c694e648a640cc6e6f1f2e7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1017c69610fc4fd4f95e2aca332dde27, type: 2}
     - target: {fileID: -4216859302048453862, guid: be2bd41a4c694e648a640cc6e6f1f2e7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3614,32 +3624,22 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.0534492
       objectReference: {fileID: 0}
-    - target: {fileID: -6343861325774139571, guid: be2bd41a4c694e648a640cc6e6f1f2e7,
+    - target: {fileID: -927199367670048503, guid: be2bd41a4c694e648a640cc6e6f1f2e7,
         type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.47
+      propertyPath: m_Name
+      value: Lighthouse
       objectReference: {fileID: 0}
-    - target: {fileID: -4349876608052867759, guid: be2bd41a4c694e648a640cc6e6f1f2e7,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7b34a907ffb068b4f848479b170e67b1, type: 2}
-    - target: {fileID: -4349876608052867759, guid: be2bd41a4c694e648a640cc6e6f1f2e7,
-        type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: 1017c69610fc4fd4f95e2aca332dde27, type: 2}
-    - target: {fileID: 4022312092107346632, guid: be2bd41a4c694e648a640cc6e6f1f2e7,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7b34a907ffb068b4f848479b170e67b1, type: 2}
     - target: {fileID: 1066910053003865102, guid: be2bd41a4c694e648a640cc6e6f1f2e7,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7b34a907ffb068b4f848479b170e67b1, type: 2}
     - target: {fileID: 2322473593601906605, guid: be2bd41a4c694e648a640cc6e6f1f2e7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7b34a907ffb068b4f848479b170e67b1, type: 2}
+    - target: {fileID: 4022312092107346632, guid: be2bd41a4c694e648a640cc6e6f1f2e7,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -4188,16 +4188,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: b225873c49e83da4baae6adb0009a223,
-        type: 3}
-      propertyPath: m_Name
-      value: cardboardOpen
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: b225873c49e83da4baae6adb0009a223,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b225873c49e83da4baae6adb0009a223,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4273,6 +4263,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9ad2bee3ae4e67e4d89d324b1815484d, type: 2}
+    - target: {fileID: -927199367670048503, guid: b225873c49e83da4baae6adb0009a223,
+        type: 3}
+      propertyPath: m_Name
+      value: cardboardOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b225873c49e83da4baae6adb0009a223,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b225873c49e83da4baae6adb0009a223, type: 3}
 --- !u!1001 &942906693
@@ -4339,11 +4339,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 74950085}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 671bc5cac783ccd4e9f6c171e0ed44e0,
-        type: 3}
-      propertyPath: m_Name
-      value: key (1)
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 671bc5cac783ccd4e9f6c171e0ed44e0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4419,6 +4414,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 47ab5cddc288f6e479d75d843efc8fd0, type: 2}
+    - target: {fileID: -927199367670048503, guid: 671bc5cac783ccd4e9f6c171e0ed44e0,
+        type: 3}
+      propertyPath: m_Name
+      value: key (1)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 671bc5cac783ccd4e9f6c171e0ed44e0, type: 3}
 --- !u!1 &1067053583 stripped
@@ -5351,8 +5351,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1341551914}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 79, y: -34.173996, z: 151.49}
+  m_LocalRotation: {x: -0.0030029472, y: 0.99658954, z: 0.06918998, w: 0.0448682}
+  m_LocalPosition: {x: 87.89391, y: -17.637856, z: 155.16872}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5816,21 +5816,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 62ac43fd884c5cb4a992021823df25af,
-        type: 3}
-      propertyPath: m_Name
-      value: carboard box
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 62ac43fd884c5cb4a992021823df25af,
-        type: 3}
-      propertyPath: m_TagString
-      value: Cardboard_Box
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 62ac43fd884c5cb4a992021823df25af,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 62ac43fd884c5cb4a992021823df25af,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5906,6 +5891,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9ad2bee3ae4e67e4d89d324b1815484d, type: 2}
+    - target: {fileID: -927199367670048503, guid: 62ac43fd884c5cb4a992021823df25af,
+        type: 3}
+      propertyPath: m_Name
+      value: carboard box
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 62ac43fd884c5cb4a992021823df25af,
+        type: 3}
+      propertyPath: m_TagString
+      value: Cardboard_Box
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 62ac43fd884c5cb4a992021823df25af,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62ac43fd884c5cb4a992021823df25af, type: 3}
 --- !u!1 &1560231918 stripped
@@ -5935,16 +5935,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 74950085}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
-        type: 3}
-      propertyPath: m_Name
-      value: broken glass (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
-        type: 3}
-      propertyPath: m_TagString
-      value: Glass
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d67ee35d0d416e745a4bfd11e9213d22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6020,6 +6010,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7edb334606ff7e9428f247e02cccf03d, type: 2}
+    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
+        type: 3}
+      propertyPath: m_Name
+      value: broken glass (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Glass
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d67ee35d0d416e745a4bfd11e9213d22, type: 3}
 --- !u!1 &1592333462 stripped
@@ -6049,11 +6049,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 74950085}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: a2569e468501e11408281f6b817431dc,
-        type: 3}
-      propertyPath: m_Name
-      value: pajser (2)
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: a2569e468501e11408281f6b817431dc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6129,6 +6124,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c9ed9c72cfbcad24c8f016af7a00d88e, type: 2}
+    - target: {fileID: -927199367670048503, guid: a2569e468501e11408281f6b817431dc,
+        type: 3}
+      propertyPath: m_Name
+      value: pajser (2)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2569e468501e11408281f6b817431dc, type: 3}
 --- !u!1 &1605080104
@@ -6181,7 +6181,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 283850dc8ff275640a53cd16b1539acf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6426,7 +6426,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 283850dc8ff275640a53cd16b1539acf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6608,11 +6608,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 671bc5cac783ccd4e9f6c171e0ed44e0,
-        type: 3}
-      propertyPath: m_Name
-      value: key
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 671bc5cac783ccd4e9f6c171e0ed44e0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6688,6 +6683,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 47ab5cddc288f6e479d75d843efc8fd0, type: 2}
+    - target: {fileID: -927199367670048503, guid: 671bc5cac783ccd4e9f6c171e0ed44e0,
+        type: 3}
+      propertyPath: m_Name
+      value: key
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 671bc5cac783ccd4e9f6c171e0ed44e0, type: 3}
 --- !u!1 &1721470405
@@ -8294,16 +8294,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
-        type: 3}
-      propertyPath: m_Name
-      value: broken glass (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
-        type: 3}
-      propertyPath: m_TagString
-      value: Glass
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d67ee35d0d416e745a4bfd11e9213d22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8379,6 +8369,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7edb334606ff7e9428f247e02cccf03d, type: 2}
+    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
+        type: 3}
+      propertyPath: m_Name
+      value: broken glass (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d67ee35d0d416e745a4bfd11e9213d22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Glass
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d67ee35d0d416e745a4bfd11e9213d22, type: 3}
 --- !u!1 &2140105787
